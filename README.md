@@ -28,10 +28,12 @@ You can use serverless method like:
   - Google Cloud Functions
 
 
-- When victim just visit the page
+
+When victim just visit the page
   ![temp1](https://github.com/user-attachments/assets/5197553e-cc96-4575-8cb8-604ba3e74617)
 
 
-- After successful phishing attempt
+
+After successful phishing attempt
   ![temp2](https://github.com/user-attachments/assets/637e29b3-838f-43ea-8e30-b66ffa8c1d97)
 
