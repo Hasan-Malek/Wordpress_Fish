@@ -5,11 +5,11 @@ This project is a WordPress Admin Panel Phishing Simulation designed to educate 
 ![image](https://github.com/user-attachments/assets/b855af21-f592-4cb0-aed0-fe28725491ec)
 
 # Wordpress Common Admin Panel
-  - It will Credentials for 2 times (No matter victim gives the correct credentials in first attempt).
-  - Both user entered credentials will be stored in .cj log file.
-  - Additionally grab the victim's IP,UserAgent and other details.
-  - Victim will be redirected to wordpress updating documentation page.
-  - .htaccess support is also available
+  - Credential Capture: The script will prompt the user for login credentials twice, regardless of whether they provide the correct credentials on the first attempt.
+  - Data Logging: Both sets of user-entered credentials will be securely logged in a .cj file for analysis.
+  - Additional Information Gathering: Alongside the credentials, the script will capture valuable details such as the victim's IP address, User-Agent, and other system information for a comprehensive data set.
+  - Redirection: After the second login attempt, the victim will be seamlessly redirected to the official WordPress update documentation page, maintaining the appearance of a legitimate interaction.
+  - .htaccess Support: Full support for .htaccess is provided, ensuring compatibility and enhanced control over URL redirection and access settings.
 
 
 # Key Features
@@ -28,12 +28,10 @@ You can use serverless method like:
   - Google Cloud Functions
 
 
-                          When victim just click on your link
+- When victim just visit the page
+  ![temp1](https://github.com/user-attachments/assets/5197553e-cc96-4575-8cb8-604ba3e74617)
 
-![image](https://github.com/user-attachments/assets/7d31a57c-214b-4183-8c41-c7fb34a66c49)
 
-
-                          After Successful Phishing Attack
-
-![image](https://github.com/user-attachments/assets/ca500814-2fc4-43f7-91c9-464865e001b6)
+- After successful phishing attempt
+  ![temp2](https://github.com/user-attachments/assets/637e29b3-838f-43ea-8e30-b66ffa8c1d97)
 
